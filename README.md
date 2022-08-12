@@ -4,10 +4,19 @@
 Holy Unblocker, an official flagship Titanium Network site, can bypass web filters regardless of whether it is an extension or network-based. Being a secure web proxy service, it supports numerous sites while being updated frequently and concentrating on detail with design, mechanics, and features.
 
 Works with a large number of sites, including YouTube, Discord, and more!
-
 Also has a good amount of locally hosted games featured on the site.
 
-**Read below for information if the official site is blocked or for obtaining more links.**
+### You can support Holy Unblocker by starring the repository!
+
+Read below for information if the official site is blocked or for obtaining more links.
+
+Can't deploy using any of the free options below? Check out Railway or look into cheap, paid VPS hosting solutions.
+
+#### Why are updates no longer happening here for this repository?
+Please read over <a href="#important-message-original">here</a>.
+
+#### Where can I find the games for this repo? (404 errors, etc.)
+Due to piracy concerns, size, etc. this has been moved over <a href="https://github.com/QuiteAFancyEmerald/HU-Archive">here</a>.
 
 #### Supports
 - Youtube.com
@@ -34,7 +43,6 @@ Simply do `%proxy hu` in `#proxy-commands` for more Holy Unblocker links on the 
 <img src="https://raw.githubusercontent.com/titaniumnetwork-dev/Holy-Unblocker/master/views/assets/img/preview/hu-v5.0.0-preview.png"></img>
 
 ### Deploy Holy Unblocker
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Ftitaniumnetwork-dev%2FHoly-Unblocker)
 
 [![Deploy to Heroku](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/titaniumnetwork-dev/Holy-Unblocker)
 [![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/titaniumnetwork-dev/Holy-Unblocker)
@@ -43,6 +51,30 @@ Simply do `%proxy hu` in `#proxy-commands` for more Holy Unblocker links on the 
 [![Deploy to IBM Cloud](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/ibmcloud.svg)](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/titaniumnetwork-dev/Holy-Unblocker)
 [![Deploy to Amplify Console](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/amplifyconsole.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/titaniumnetwork-dev/Holy-Unblocker)
 [![Run on Google Cloud](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/googlecloud.svg)](https://deploy.cloud.run/?git_repo=https://github.com/titaniumnetwork-dev/Holy-Unblocker)
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Ftitaniumnetwork-dev%2FHoly-Unblocker)
+
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/QuiteAFancyEmerald/Holy-Unblocker-Old&branch=master&name=HolyUnblocker&run_command=npm%start)
+
+#### Is Holy Unblocker still being worked on?
+Yes! A lot of users may have noticed the initial message about Holy Unblocker being down however Holy Unblocker is now being maintained by a seperate team and no longer by me. You may check it out <a href="https://git.holy.how/">here</a> once setup or join the TN Discord linked below for more information. 
+
+#### Where can I find the new source material for Holy Unblocker?
+Check it out <a href="https://github.com/holy-unblocker/website-aio">here</a> if you wish to have an easier to deploy instance with the new changes :D
+
+#### Important Message (Original)
+This isn’t the greatest announcement sorry. After lots of thought and severe hesitation I’m shutting down Holy Unblocker and leaving TN. It's just been something that I’ve been super conflicted with for months hence the lack of updates and the massive gaps that happened last year. I just didn’t want to throw away a project that I passionately enjoyed and spent time on while making amazing friends and meeting epic devs here. I could go on forever for who these people are but ima like leave it here. They know who they are :D
+
+The main change of thought is that I’m finally just putting an end right now due to 1) the lack of motivation 2) the community is NOT the greatest at time and not the nicest at times (have to put that out here) 3) the future doesn’t look so good for HU/TN as a project.
+
+Some things I’ll be keeping secret since there are more reasons to this choice unless otherwise for those who don’t find this enough information. Good friends here will know that I’ve been super stressed about this choice for months now. Also regardless a good motivator for this choice is the fact that I’ll be graduating soon.
+
+It’s possible that I may continue/come back for this in the future or keep it on GitHub only. I leave this here because even now I am still doubting myself about this change. But for now I’d check out other proxy sites like Incognito (Duce DOES a ton of updates frequently and he is the creator/developer of Ultraviolet so give him some love) :yayy_hopi: 
+
+Check out his Patreon also! For current HU patrons you will not be billed next month and the HU Patreon will be archived so head over to Duce’s patron so he can purchase more domains for Incognito.
+
+With love <3
+Emerald :HuTaoHype:
 
 ## Table of contents:
 
@@ -144,12 +176,12 @@ After you have selected a decent VPS, use Cloudflare for the DNS records for bot
 This is an example of DNS records involving Heroku. Self-hosting will require `A records` preferably.
 <img src="https://raw.githubusercontent.com/titaniumnetwork-dev/Holy-Unblocker/master/views/assets/img/dnssetup.png" width="500"></img>
 
-- `@` and `www.deepsoil.ml` are being used for the local Corrosion proxy.
-- `p.deepsoil.ml` is being used for Palladium.
-- `a.deepsoil.ml` is being used for womginx.
-- `cdn.deepsoil.ml` is being used for a private Corrosion host on the official sites.
+- `@` and `www.example.ml` are being used for the local Ultraviolet proxy.
+- `client.example.ml` is being used for Rammerhead.
+- `a.example.ml` is being used for womginx.
+- `cdn.example.ml` is being used for a private Ultraviolet host on the official sites.
 
-As stated previously, Holy Unblocker is hosted locally with Corrosion.
+As stated previously, Holy Unblocker is hosted locally with Ultraviolet.
 
 #### Heroku Steps
 So you chose to use Heroku to host. I personally favor it as a free choice.
@@ -162,7 +194,7 @@ Make sure you connect your Heroku app to your GitHub and enable automatic deploy
 For beginners, Freenom is a good provider for obtaining domains for free. However the catch is that you can only use properly "Freenom" domains for free being .cf, .ml, .gq, ga and .tk. However these can be blocked rather easily.
 
 - Get some Freenom domains then add them to your Heroku instance (Personal > [App Name] > Settings > Domains)
-Add a domain for both `www.youdomainhere.cf` and `yourdomainhere.cf` with .cf being interchangeable with other Freenom domain names.
+Add a domain for both `www.example.cf` and `example.cf` with .cf being interchangeable with other Freenom domain names.
 - If you prefer to obtain premium domains (TLDs) then use <a href="https://porkbun.com">Porkbun</a>, which offers domains for amazing prices. Literally a `.net` domain normally costs around $10. On Porkbun for the first year it costs $3 so its definitely a deal.
 
 #### Cloudflare Steps
@@ -220,27 +252,6 @@ A detailed FAQ with common issues and solutions can be found <a href="https://ho
 
 Captcha support is currently not available on all of the current proxies sadly. Therefore some sites may not work with any of the sites. Read below for issues with links on sites.
 
-**Why are some page links not working or leading to 404 pages?**
-
-This is an issue with the latest release of Alloy proxy but it may also occur with other proxies.
-
-In this case manually entering the URL of the page you would like to view can solve this or try navigating using the home button. (Reddit, Twitter) The next release of Alloy may fix this also.
-
-**When using YouTube on any of the proxy sites, why does the page not load fully or the video is just white?**
-
-There are two methods for fixing this:
-
-- Reloading the page normally when the error above happens should load the video.
-- Or right-clicking the page and doing Reload Frame if you are using some form of Stealth Mode.
-
-**When using Discord under Alloy or SysYa, why does the page stay gray/white or the QR code not load?**
-
-Once again do the same steps above:
-- Reloading the page normally when the error above happens should load the video
-- Or right-clicking the page and doing Reload Frame if you are using some form of Stealth Mode.
-
-Make sure you are also doing the steps correctly. Simply view link above for extended Discord proxy information/steps.
-
 **I am getting 502 errors. What do I do?**
 
 When this happens you may either switch sites to fix the error or wait a bit. Sometimes clearing your cache can help.
@@ -258,12 +269,11 @@ This project is maintained by Quite A Fancy Emerald with massive help from BinBa
 View the official website for more detail and credits.
 
 ### Proxy Sources:
-This project currently uses Corrosion, Womginx, and Palladium, linked below.
+This project currently uses Ultraviolet, Womginx, and Rammerhead, linked below.
 
-- <a href="https://github.com/titaniumnetwork-dev/Corrosion">Corrosion</a>
+- <a href="https://github.com/titaniumnetwork-dev/Ultraviolet">Ultraviolet</a>
 - <a href="https://github.com/binary-person/womginx">Womginx</a>
-- <a href="https://github.com/LudicrousDevelopment/Palladium">Palladium</a>
-- <a href="https://github.com/BinBashBanana/PyDodge">PyDodge</a>
+- <a href="https://github.com/binary-person/rammerhead">Rammerhead</a>
 
 ### Other:
 
